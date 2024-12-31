@@ -55,7 +55,7 @@ marker_size = 10
 
 
 
-calib_data_path = r"C:\Users\91779\Desktop\internship\calib_data\MultiMatrix.npz"
+calib_data_path = "../calib_data/MultiMatrix.npz"
 
 calib_data = np.load(calib_data_path)
 print(calib_data.files)
